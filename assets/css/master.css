@@ -1,0 +1,205 @@
+
+/*--  deafault for custom this website --*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    font-family: 'Gugi', 'Lato' , sans-serif, cursive;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media only screen and (min-width: 1300px){
+
+    body{
+        width: 100%;
+        height: 3200px;
+        background: url("../pics/bg.svg") no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+
+    /*-- top-section --*/
+    .top-section{
+        width: 100%;
+        height: 80px !important;
+        box-sizing: border-box;
+
+    }
+    .top-section .join-button, .btn-produk{
+        font-family: 'Gugi' !important;
+        box-sizing: border-box;
+        padding: 6px 12px;
+        background-color: #ffffffc9;
+        color: #616161;
+        font-size: 18px;
+        border-radius: 15px;
+        text-decoration: none;
+        font-weight: 400;
+        width: auto;
+        height: 40px;
+        margin: 15px 20px 15px 10px;
+        transition: all 0.3s ease-in;
+        -webkit-transition: all 0.3s ease-in;
+    }
+    .join-button:hover, .btn-produk:hover{
+        background-color: white;
+        color: black;
+        border-radius: 8px;
+    }
+    /*-- top-section --*/
+
+    /*-- section-1 --*/
+    #section-1{
+        width: 100%;
+        height: 600px;
+    }
+    .top-brand{
+        width: 100%;
+        height: 100px;
+        box-sizing: border-box;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 104px;
+    }
+    .top-brand a{
+        width: 80px;
+        height: auto;
+    }
+    .top-brand img{
+        max-width: 100px;
+        max-height: 100px;
+        width: 80px;
+        height: 80px;
+        transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+    }
+    #digtive-brand-img:hover{
+        width: 90px;
+        height: 90px;
+    }
+
+    .quote-section{
+        width: 100%;
+        height: 300px;
+        box-sizing: border-box;
+    }
+    .quote-section h4{
+        font-family: 'Gugi' !important;
+        line-height: 1.5;
+
+    }
+
+    /*-- section-1 --*/
+
+    /*-- section 2 --*/
+    #section-2{
+        width: 100%;
+        height: 1000px;
+        box-sizing: border-box;
+        padding-top: 240px;
+    }
+    #mid-box{
+        height: 600px;
+        font-family: 'Gugi' !important;
+    }
+    #mid-box img{
+        max-width: 100% !important;
+        max-height: 100% !important;
+    }
+
+    /*-- section 2 --*/
+
+    /*-- section 3 --*/
+    #section-3{
+        margin-top: 100px;
+        width: 100%;
+        height: 580px;
+        font-family: 'Gugi' !important;
+    }
+
+    /*-- section 3 --*/
+
+
+    /*-- section 4 --*/
+    #section-4{
+        width: 100%;
+        height: 520px;
+        box-sizing: border-box;
+        padding-top: 90px;
+    }
+    #section-4 h2{
+        font-family: 'Gugi' !important;
+    }
+    .crew-info h5{
+        font-family: 'Gugi' !important;
+    }
+
+
+
+
+    /*-- section 4 --*/
+
+    /*-- section 5 --*/
+    #section-5{
+        width: 100%;
+        height: 450px;
+        padding-top: 350px;
+        box-sizing: border-box;
+    }
+    .footer-wrapper{
+        height: 100px;
+        box-sizing: border-box;
+        display: flex;
+        padding: 15px 20px;
+    }
+    .footer-wrapper .brand-img{
+        margin: 0 20px;
+    }
+    .footer-wrapper .nav-link{
+        margin-top: 10px;
+        margin:  0px 20px;
+        padding: 10px 5px;
+        font-size: 20px !important;
+        font-family: 'Gugi', 'Lato' , sans-serif, cursive;
+        color: #101010c4;
+        transition: color 0.2s ease-in;
+        -webkit-transition: color 0.2s ease-in;
+    }
+    .footer-wrapper .nav-link:hover{
+        color: black;
+    }
+
+    /*-- section 5 --*/
+
+
+
+    /*--  default for custom this website --*/
+
+    /*-- custom --*/
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+    /*-- custom --*/
+}
